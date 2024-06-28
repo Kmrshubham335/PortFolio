@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import projectImg  from '../../assets/project-1.png';
+import prepWiseAi from '../../assets/PrepWiseAI.png';
+import express from '../../assets/project-3.png';
+import Tic from '../../assets/project-2.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={projectImg}
+          link="https://collabcanvas-alpha.vercel.app/"
+          h3="CollabCanvas"
+          p="Real-Time Web App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={prepWiseAi}
+          link="https://prepwiseai.vercel.app/"
+          h3="PrepWiseAI"
+          p="AI Interview Coach"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={express}
+          link="https://github.com/Kmrshubham335/Complete-WebDevelopment-Resource/tree/main/Backend/NodeJs/ExpressJs/Project/Login_Auth"
+          h3="ExpressJS Authentication"
+          p="Login Authentication"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={Tic}
+          link="https://github.com/Kmrshubham335/Complete-WebDevelopment-Resource/tree/main/JavaScript/Project_JS/Day3_TO-DO-List"
+          h3="Tic tac Toe"
+          p="JavaScript Game"
         />
       </div>
     </section>
