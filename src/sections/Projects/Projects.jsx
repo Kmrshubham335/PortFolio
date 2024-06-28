@@ -30,9 +30,9 @@ function Projects() {
         />
         <ProjectCard
           src={Tic}
-          link="https://github.com/Kmrshubham335/Complete-WebDevelopment-Resource/tree/main/JavaScript/Project_JS/Day3_TO-DO-List"
-          h3="Tic tac Toe"
-          p="JavaScript Game"
+          link="https://github.com/Ade-mir/company-landing-page-2"
+          h3="Fit"
+          p="Fitness App"
         />
       </div>
     </section>
