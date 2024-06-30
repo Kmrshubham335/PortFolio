@@ -40,20 +40,18 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://github.com/Kmrshubham335" target="_blank">
+          <a href="https://github.com/Kmrshubham335" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/shubhamkumar68/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+          <a href="https://www.linkedin.com/in/shubhamkumar68/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinIcon} alt="LinkedIn icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Welcome to the digital universe, where I'm the architect of tomorrow's experiences.
         </p>
-        {/* <a href={CV} target='blank'> */}
-        <a href="/cv.pdf" target="_blank">
-          <button className="hover">Resume</button>
+        <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+          <button className={styles.button}>Resume</button>
         </a>
       </div>
     </section>
